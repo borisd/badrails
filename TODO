@@ -1,0 +1,14 @@
+View
+- Split to partial
+- Use helper 
+- Use scope on current_user.orders
+
+Controller
+- user current_user.orders.new 
+- move charge to Order after_save
+- move notifier to charge model 
+
+Model
+- Improve charge! method
+
+
